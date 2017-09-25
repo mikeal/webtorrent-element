@@ -12,7 +12,7 @@ Usage:
 </body>
 ```
 
-Often a torrent file contains many files but you only want to display one.
+Often a torrent contains many files but you only want to display one.
 You can do this using the `file` attribute.
 
  ```html

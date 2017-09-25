@@ -1,7 +1,7 @@
 # WebTorrent Component
 
 <a href="https://www.patreon.com/bePatron?u=880479">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" />
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" margin-bottom="12px" />
 </a>
 
 This is an HTML element you can use to display content from any WebTorrent

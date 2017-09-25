@@ -1,0 +1,36 @@
+{
+  "name": "webtorrent-component",
+  "version": "0.1.0",
+  "description": "WebTorrent HTML element.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "standard",
+    "start": "budo dist.js:bundle.js",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "prepublish": "mkdir -p dist && browserify dist.js > dist/webtorrent-component.js && cat dist/webtorrent-component.js | minify > dist/webtorrent-component.min.js",
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "husky": "^0.14.3",
+    "webtorrent": "^0.98.19",
+    "zcomponent": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-minify": "^0.2.0",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "load-js": "^2.0.0",
+    "standard": "^10.0.3"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "webtorrent-component",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "WebTorrent HTML element.",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,11 @@
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
     "load-js": "^2.0.0",
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "semantic-release": "^8.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/webtorrent-component.git"
   }
 }

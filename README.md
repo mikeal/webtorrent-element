@@ -1,6 +1,8 @@
 # WebTorrent Component
 
-[![Become a Patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=880479)
+<a href="https://www.patreon.com/bePatron?u=880479">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" />
+</a>
 
 This is an HTML element you can use to display content from any WebTorrent
 accessible magnet link.

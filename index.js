@@ -8,7 +8,6 @@ class WebTorrentComponent extends ZComponent {
     this._file = file
   }
   set src (magnet) {
-    console.log(magnet)
     client.add(magnet, torrent => {
       torrent.files.forEach(file => {
         if (this._file) {

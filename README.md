@@ -1,5 +1,7 @@
 # WebTorrent Component
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/webtorrent-component.svg)](https://greenkeeper.io/)
+
 An HTML element you can use to display content on WebTorrent.
 
 <p>

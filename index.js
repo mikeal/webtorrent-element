@@ -3,7 +3,7 @@ const WebTorrent = require('webtorrent')
 
 const client = new WebTorrent()
 
-class WebTorrentComponent extends ZComponent {
+class WebTorrentElement extends ZComponent {
   set file (file) {
     this._file = file
   }
@@ -33,5 +33,5 @@ class WebTorrentComponent extends ZComponent {
   }
 }
 
-module.exports = WebTorrentComponent
-window.customElements.define('web-torrent', WebTorrentComponent)
+module.exports = WebTorrentElement
+window.customElements.define('web-torrent', WebTorrentElement)

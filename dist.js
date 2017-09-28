@@ -2,8 +2,8 @@
 const loadjs = require('load-js')
 
 window.addEventListener('WebComponentsReady', () => {
-  let opts = {WebTorrentComponent: require('./')}
-  let event = new CustomEvent('WebTorrentComponentReady', opts)
+  let opts = {WebTorrentElement: require('./')}
+  let event = new CustomEvent('WebTorrentReady', opts)
   window.dispatchEvent(event)
 })
 const polyfill = 'https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.12/webcomponents-loader.js'

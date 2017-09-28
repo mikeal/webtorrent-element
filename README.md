@@ -1,4 +1,4 @@
-# WebTorrent Component
+# WebTorrent Element
 
 An HTML element you can use to display content on WebTorrent.
 

@@ -9,7 +9,7 @@
     "start": "budo dist.js:bundle.js",
     "precommit": "npm test",
     "prepush": "npm test",
-    "prepublish": "mkdir -p dist && browserify dist.js > dist/webtorrent-element.js && cat dist/webtorrent-element.js | minify > dist/webtorrent-element.min.js",
+    "prepublishOnly": "distjs",
     "commitmsg": "validate-commit-msg",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -18,10 +18,17 @@
       "dist"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
   "license": "Apache-2.0",
   "dependencies": {
+    "distjs": "^1.0.0",
+    "magnet-uri": "^5.1.7",
     "webtorrent": "^0.98.19",
     "zcomponent": "^1.0.4"
   },
@@ -29,6 +36,7 @@
     "babel-minify": "^0.2.0",
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
+    "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
     "load-js": "^2.0.0",
     "standard": "^10.0.3",

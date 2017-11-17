@@ -1,4 +1,4 @@
-const ZComponent = require('zcomponent')
+const RZA = require('rza')
 const WebTorrent = require('webtorrent')
 const magnetURL = require('magnet-uri')
 
@@ -15,7 +15,7 @@ const getTorrent = (magnet, fn) => {
   client.add(magnet, fn)
 }
 
-class WebTorrentElement extends ZComponent {
+class WebTorrentElement extends RZA {
   set file (file) {
     this._file = file
   }

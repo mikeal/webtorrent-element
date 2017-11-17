@@ -29,8 +29,8 @@
   "dependencies": {
     "distjs": "^1.0.0",
     "magnet-uri": "^5.1.7",
-    "webtorrent": "^0.98.19",
-    "zcomponent": "^1.0.4"
+    "rza": "^2.6.1",
+    "webtorrent": "^0.98.19"
   },
   "devDependencies": {
     "babel-minify": "^0.2.0",

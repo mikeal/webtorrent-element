@@ -37,7 +37,7 @@
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
     "cz-conventional-changelog": "^2.0.0",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0",
     "load-js": "^2.0.0",
     "standard": "^10.0.3",
     "semantic-release": "^8.0.3"

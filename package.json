@@ -33,7 +33,7 @@
     "zcomponent": "^1.0.4"
   },
   "devDependencies": {
-    "babel-minify": "^0.2.0",
+    "babel-minify": "^0.5.1",
     "browserify": "^14.4.0",
     "budo": "^10.0.4",
     "cz-conventional-changelog": "^2.0.0",

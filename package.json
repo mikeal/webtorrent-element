@@ -39,7 +39,7 @@
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
     "load-js": "^2.0.0",
-    "standard": "^10.0.3",
+    "standard": "^14.1.0",
     "semantic-release": "^8.0.3"
   },
   "repository": {

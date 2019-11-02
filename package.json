@@ -29,7 +29,7 @@
   "dependencies": {
     "distjs": "^1.0.0",
     "magnet-uri": "^5.1.7",
-    "webtorrent": "^0.98.19",
+    "webtorrent": "^0.107.16",
     "zcomponent": "^1.0.4"
   },
   "devDependencies": {
